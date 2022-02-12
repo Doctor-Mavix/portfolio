@@ -1,0 +1,26 @@
+{
+  "About": {
+    "description": "Auto imported from components/About.vue"
+  },
+  "Contact": {
+    "description": "Auto imported from components/Contact.vue"
+  },
+  "Home": {
+    "description": "Auto imported from components/Home.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Project": {
+    "description": "Auto imported from components/Project.vue"
+  },
+  "Skill": {
+    "description": "Auto imported from components/Skill.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "Youtube": {
+    "description": "Auto imported from components/Youtube.vue"
+  }
+}

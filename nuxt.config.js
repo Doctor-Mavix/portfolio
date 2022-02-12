@@ -26,7 +26,7 @@ export default {
                 content: 'A world class full stack software and network engineer (CCNA); passionate about changing the world by solving problems.',
             },
             { hid: 'og:type', property: 'og:type', content: 'website' },
-            { hid: 'og:url', property: 'og:url', content: 'https://techreagan.com' },
+            { hid: 'og:url', property: 'og:url', content: 'https://doctor-mavix.com' },
             {
                 hid: 'og:title',
                 property: 'og:title',
@@ -51,7 +51,7 @@ export default {
             {
                 hid: 'twitter:url',
                 property: 'twitter:url',
-                content: 'https://techreagan.com',
+                content: 'https://doctor-mavix.com',
             },
             {
                 hid: 'twitter:title',
@@ -88,7 +88,7 @@ export default {
             },
             { rel: 'manifest', href: '/site.webmanifest' },
             { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-            { rel: 'canonical', href: 'https://techreagan.com' },
+            { rel: 'canonical', href: 'https://doctor-mavix.com' },
             {
                 href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap',
                 rel: 'stylesheet',
@@ -150,13 +150,16 @@ export default {
             dark: true,
             themes: {
                 dark: {
-                    background: '#101024',
-                    primary: '#f3bc17',
+                    // background: '#9c8d97',
+                    background: '#1d9bf0',
+                    // shadeBg: '#dac6d3',
+                    primary: '#eca114',
                     // primary: '#f0d13b',
                     // 'bg-secondary': '#121227',
                     // accent: colors.grey.darken3,
                     // secondary: colors.amber.darken3,
-                    secondary: '#121227',
+                    secondary: '#95938f',
+                    tertiary: '#dac6d3',
                     info: colors.teal.lighten1,
                     warning: colors.amber.base,
                     error: colors.deepOrange.accent4,

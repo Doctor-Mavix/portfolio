@@ -1,15 +1,8 @@
 <template>
   <v-app app>
-    <v-app-bar :clipped-left="clipped" elevate-on-scroll dense fixed app>
+    <v-app-bar class="background" :clipped-left="clipped" elevate-on-scroll dense fixed app>
       <v-container class="py-0 px-0 fill-height">
-        <v-img
-          lazy-src="./img/tech-reagan-logo.png"
-          max-width="50"
-          class="mr-3"
-          alt="Tech Reagan's Logo"
-          title="Tech Reagan's Logo"
-          src="./img/tech-reagan-logo.png"
-        ></v-img>
+      
         <v-toolbar-title class="hidden-sm-and-down" v-text="title" />
         <v-spacer />
         <client-only>
@@ -74,9 +67,9 @@
         </client-only>
       </v-list>
     </v-navigation-drawer>
-    <v-footer :absolute="!fixed" app>
+    <v-footer :absolute="!fixed" color="background" app>
       <span class="text-caption"
-        >Copyright &copy; {{ new Date().getFullYear() }} Tech Reagan</span
+        >Copyright &copy; {{ new Date().getFullYear() }} Doctor Mavix</span
       >
     </v-footer>
   </v-app>
@@ -89,7 +82,7 @@ export default {
       clipped: false,
       drawer: true,
       fixed: false,
-      links: ['home', 'projects', 'skills', 'youtube', 'about', 'contact'],
+      links: ['home', 'projects', 'skills', 'about', 'contact'],
       items: [
         {
           icon: 'mdi-apps',
@@ -105,7 +98,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Tech Reagan',
+      title: 'Doctor Mavix',
     }
   },
 }
@@ -114,6 +107,7 @@ export default {
 <style>
 .theme--dark.v-application .text--primary {
   color: #f3bc17 !important;
+  /* color: #eca114 !important; */
   /* color: #f0d13b !important; */
 }
 

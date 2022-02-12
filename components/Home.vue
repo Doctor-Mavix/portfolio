@@ -12,17 +12,17 @@
         class="align-self-center"
       >
         <p class="mb-0 text--primary">Hello,</p>
-        <h1 class="my-1 display-1 font-weight-bold">
+        <h1 class="my-1 display-1 h1-v font-weight-bold">
           I'm
-          <span class="text--primary">Reagan Ekhameye (Tech Reagan)</span>
+          <span class="text--primary">Manoël Vital (Doctor Mavix)</span>
         </h1>
         <p>
-          A world class full stack software and network engineer; passionate
+          A world class full stack software developer;<br> passionate
           about changing the world by solving problems.
         </p>
 
         <v-btn
-          href="mailto:techreagan2@gmail.com"
+          href="mailto:doctormavix@gmail.com"
           class="primary black--text scrollactive-item"
           nuxt
           small
@@ -75,27 +75,30 @@ export default {
     return {
       socialLinks: [
         {
-          link: 'https://github.com/techreagan',
+          link: 'https://github.com/doctor-mavix',
           icon: 'mdi-github',
         },
         {
-          link: 'https://youtube.com/techreagan',
+          link: 'https://www.youtube.com/channel/UC01DvwM2kBZAvEp1Hf6hNbQ',
           icon: 'mdi-youtube',
         },
         {
-          link: 'https://linkedin/in/techreagan',
+          link: 'https://www.linkedin.com/in/manoel-vital-a779a31ba/',
           icon: 'mdi-linkedin',
         },
         {
-          link: 'https://twitter.com/techreagan',
-          icon: 'mdi-twitter',
+          link: 'https://wa.me/+22968428247',
+          icon: 'mdi-whatsapp',
         },
-        {
-          link: 'https://facebook.com/techreagan',
-          icon: 'mdi-facebook',
-        },
+      
       ],
     }
   },
 }
 </script>
+
+<style>
+  h1.h1-v{
+
+  }
+</style>

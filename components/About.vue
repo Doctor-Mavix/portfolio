@@ -18,18 +18,19 @@
           cols="12"
           sm="12"
           md="6"
+           data-aos="slide-left"
+          :data-aos-delay="`${80}`"
           lg="6"
-          class=""
+          class="background rounded px-2 px-md-6 py-1 py-md-6"
         >
           <h2 class="text--primary">ABOUT</h2>
           <p class="mb text--primary">Software & Network Engineer</p>
           <p>
-            I'm Reagan Ekhameye a.k.a Tech Reagan. A full stack developer
+            I'm Manoël T. Vital SEGBANGNIDE  Doctor Mavix. A full stack developer
             though, I specialize in backend development. I have three(3) years
             of experience in the field. I have my first degree in Economics, but
             my zeal for coding made me acquired a second degree in Communication
-            & Information Technology (CIT). I'm a network engineer with a CCNA
-            (Cisco Certified network Associate)
+            & Information Technology (CIT). 
           </p>
 
           <p>
@@ -78,3 +79,7 @@ export default {
   },
 }
 </script>
+
+<style>
+
+</style>

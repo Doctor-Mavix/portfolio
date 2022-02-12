@@ -14,12 +14,12 @@
           data-aos="flip-right"
           :data-aos-delay="`${50 * key}`"
         >
-          <v-card class="secondary text-center">
-            <v-icon class="py-5">{{ skill.icon }}</v-icon>
+          <v-card class="white text-center ">
+            <v-icon class="py-5" color="background">{{ skill.icon }}</v-icon>
             <p class="text-center text--primary mb-0 font-weight-medium">
               {{ skill.title }}
             </p>
-            <v-card-text class="pt-0">
+            <v-card-text class="pt-0 black--text ">
               {{ skill.description }}
             </v-card-text>
           </v-card>
@@ -38,17 +38,17 @@ export default {
           icon: 'mdi-desktop-mac-dashboard',
           title: 'Frontend Development',
           description:
-            'HTML, CSS, JavaScript, SASS, Vue JS, Nuxt JS, Vuetify JS',
+            'HTML, CSS, JavaScript, Tailwind CSS, Vue JS, Nuxt JS, Vuetify JS',
         },
         {
           icon: 'mdi-database',
           title: 'Backend Development',
-          description: 'Node JS, PHP, MongoDB, MySQL, PostgreSQL, SQLite',
+          description: 'Node JS, PHP, Laravel, MongoDB, MySQL',
         },
         {
           icon: 'mdi-server',
-          title: 'Dev OPS',
-          description: 'Docker',
+          title: 'Version control system',
+          description: 'Git',
         },
       ],
     }
